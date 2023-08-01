@@ -1,2 +1,10 @@
 server:
   port: 8001
+
+spring:
+  cloud:
+    consul:
+      discovery:
+        healthCheckInterval: 15s
+
+
